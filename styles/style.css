@@ -71,7 +71,6 @@ ol {
   height: 100%;
   object-fit: cover;
   object-position: bottom;
-
 }
 
 .search-form {
@@ -80,7 +79,6 @@ ol {
   align-items: start;
   gap: 40px;
 }
-
 
 .search-form__fieldset {
   border: none;
@@ -207,7 +205,6 @@ ol {
 }
 
 .content__list {
-  position: relative;
   margin-top: 26px;
   block-size: 298px;
   overflow: auto;
@@ -259,7 +256,7 @@ ol {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 1em;
+  line-height: 100%;
   text-transform: uppercase;
   margin-block-end: 6px;
 }
@@ -268,7 +265,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 0.9em; 
+  line-height: 90%; 
 }
 
 .content__video-card-thumbnail {
@@ -280,6 +277,5 @@ ol {
 
 
 .preloader::before {
-  position: absolute;
   background: #545050;
 }

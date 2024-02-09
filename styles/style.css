@@ -133,7 +133,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   justify-content: space-between;
-  width: 212px;
+  gap: 15px;
 } 
 
 .search-form__pseudo-checkbox {
@@ -189,6 +189,7 @@ ol {
 
 .search-form__submit-button {
   align-self: end;
+  justify-self: end;
   width: 194px;
 }
 
